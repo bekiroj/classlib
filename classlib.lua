@@ -1,3 +1,5 @@
+--// https://github.com/bekiroj/classlib
+
 function class(name)
     local c = {}
     c.__index = c
