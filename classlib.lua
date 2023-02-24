@@ -1,7 +1,7 @@
 function class(name)
     local c = {}
     c.__index = c
-    c.__type = c
+    c.__type = name
 
     function c:new(...)
         local instance = setmetatable({}, self)
