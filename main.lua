@@ -1,8 +1,8 @@
-local test = class("test")
+local main = class("main")
 
-function test:init()
-    self.text = 'hi'
+function main:init()
+    self.text = 'hello world!'
     print(self.text)
 end
 
-test:new()
+main:new()
